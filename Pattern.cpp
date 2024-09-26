@@ -62,5 +62,127 @@ int main(){
         }
         cout<<endl;
     }
+
+    /*
+    ABC
+    DEF
+    IJK
+    */
+    char ch = 'A';
+    for(int i=1;i<=n;i++){
+        for(int j=0;j<n;j++){
+            cout<<ch;
+            ch++;
+        }
+        cout<<endl;
+    }
+
+    // TRIANGLE PATTERN
+    /*
+    *
+    **
+    ***
+    ****
+    */
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    /*
+    1
+    22
+    333
+    4444
+    */
+    int number = 1;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<i+1;j++){
+            cout<<number;
+        }
+        number++;
+        cout<<endl;
+    }
+
+    /*
+    A
+    BB
+    CCC
+    DDDD
+    EEEEE
+    */
+    char char1 = 'A';
+    for(int i=0;i<n;i++){
+        for(int j=0;j<i+1;j++){
+            cout<<char1;
+        }
+        char1++;
+        cout<<endl;
+    }
+
+    /*
+    1
+    12
+    123
+    1234
+    */
+    for (int i=0;i<n;i++){
+        for (int j=1;j<=i+1;j++){
+            cout<<j;
+        }
+        cout<<endl;
+    }
+
+    /*
+    1
+    21
+    321
+    4321
+    */
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j>0;j--){
+            cout<<j;
+        }
+        cout<<endl;
+    }
+
+    /*
+    1
+    2 3
+    4 5 6
+    7 8 9 10
+    */
+    int number1 = 1;
+    for (int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<number1;
+            number1++;
+        }
+        cout<<endl;
+    }
+
+    // Using Backwords logic
+    int number2=1;
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j>0;j--){
+            cout<<number2;
+            number2++;
+        }
+        cout<<endl;
+    }
+
+    // Character version
+    char character = 'A';
+    for(int i=0;i<n;i++){
+        for(int j=0;j<=i;j++){
+            cout<<character;
+            character++;
+        }
+        cout<<endl;
+    }
+
+
     return 0;
 }
