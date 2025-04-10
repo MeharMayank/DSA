@@ -78,7 +78,7 @@ int main(){
             among the two. In above example, it is float. 
             
             Although, float has same byte size as int i.e. 4, since 
-            float has decimal vales as well which int does not, it makes
+            float has decimal values as well which int does not, it makes
             float bigger than int.
 
     2. Relational --> <, <=, >, >=, ==, ===, !==, !===
