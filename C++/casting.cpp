@@ -10,6 +10,7 @@ int main(){
     cout<<totalPrice<<endl;
 
     //We need to be mindful wrt data types. Suppose you are computing prices, in that case using double 
-    //makes much more sense than 
+    //makes much more sense than using int because in the case of the latter, some precision will be lost
+    //as the value will be in int which would not be ideal
     return 0;
 }
