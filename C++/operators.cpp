@@ -17,10 +17,10 @@ int main(){
     totalPrice = pricePerCup * cups;
     if(totalPrice > 100){
         discountPrice = totalPrice - (totalPrice * 0.05);
+        cout<<discountPrice<<endl;
     }
     else {
-        discountPrice = totalPrice;
+        cout<<totalPrice<<endl;
     }
-    cout<<discountPrice;
     return 0;
 }
