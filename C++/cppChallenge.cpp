@@ -50,7 +50,6 @@ int main(){
 Q.3. A tea subscription services offers a discount if the user buys more than 12 cups 
 or if they are a member for more than a year. WAP that checks if the user qualifies 
 for a discount based on the input.
-*/
 
 #include <iostream>
 using namespace std;
@@ -69,4 +68,56 @@ int main(){
     cout << "You are not qualified for a discount" << endl;
   }
 return 0;
+}
+*/
+
+/*
+Q.4. A tea shop uses a binary system to track tea availability in stock. The shop has 
+3 types of teas : 
+ - Boba Tea (position 0) : represented by bit 1 (binary: 001)
+ - Green Tea (position 1) : represented by bit 2 (binary: 010)
+ - Black Tea (position 2) : represented by bit 4 (binary: 100)
+
+ The shop's current stock status is stored as a single number where each bit represents
+ if that tea is available (1) or not (0).
+
+Use the bitwise AND operator to check if that specific tea is available in stock and 
+display an appropriate message.
+*/
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int teaType, stock;
+    cout << "Enter the number of tea type for which you want to check the stock for TYPE 1 : Boba Tea, TYPE 2 : Green Tea, TYPE 4 : Black Tea " << endl;
+    cin >> teaType;
+    stock = 5;  // Changed from 5 to 7 to have all teas in stock
+    
+    if (teaType == 1){
+        if(stock & 1){
+            cout << "Boba Tea is available!" << endl;
+        } else {
+            cout << "Boba Tea is out of stock !" << endl;
+        }
+    }
+    else if (teaType == 2){
+        if(stock & 2){
+            cout << "Green Tea is available !" << endl;
+        } else {
+            cout << "Green Tea is out of stock !" << endl;
+        }
+    }
+    else if (teaType == 4){
+        if(stock & 4){
+            cout << "Black Tea is available !" << endl;
+        } else {
+            cout << "Black Tea is out of stock !" << endl;
+        }
+    }
+    else {
+        cout << "Invalid tea type !" << endl;
+    }
+    
+    return 0;
 }
