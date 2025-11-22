@@ -18,10 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfe14860-d0ee-4eab-b673-b95b4ec6c9ec" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/C++.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/C++.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/C++.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,22 +65,10 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="assign.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C++" TARGET_NAME="assign.cpp" CONFIG_NAME="assign.cpp">
-      <option name="sourceFile" value="assign.cpp" />
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="C/C++ File.assign.cpp" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cfe14860-d0ee-4eab-b673-b95b4ec6c9ec" name="Changes" comment="" />
@@ -92,7 +80,17 @@
       <workItem from="1763032753764" duration="94000" />
       <workItem from="1763032859191" duration="49000" />
       <workItem from="1763033096221" duration="84000" />
-      <workItem from="1763033262059" duration="2788000" />
+      <workItem from="1763033262059" duration="4601000" />
+      <workItem from="1763111372165" duration="1275000" />
+      <workItem from="1763157513541" duration="4514000" />
+      <workItem from="1763217960781" duration="34000" />
+      <workItem from="1763218001234" duration="1150000" />
+      <workItem from="1763312762971" duration="1584000" />
+      <workItem from="1763351256804" duration="599000" />
+      <workItem from="1763548082651" duration="600000" />
+      <workItem from="1763672706726" duration="602000" />
+      <workItem from="1763813199458" duration="2699000" />
+      <workItem from="1763825590115" duration="64000" />
     </task>
     <servers />
   </component>
