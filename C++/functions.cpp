@@ -28,6 +28,12 @@ void serveChai(string teaType = "Masala Tea"/* Default Parameter */){
 };
 
 /*
+ONE MORE EX OF FUNCTION OVERLOADING : 
+void serveChai(int cup, int tealeaves){
+}
+*/
+
+/*
 In case we want the function to handle the case in which the parameter is empty,
 we can enter our own default value as follows : 
 void serveChai(string teaType = "Masala Tea"){}
